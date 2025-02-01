@@ -8,8 +8,8 @@ import time
 app = Flask(__name__)
 
 # Files for data storage
-DATA_FILE = "/tmp/datas.txt"
-STATUS_FILE = "/tmp/status.txt"
+DATA_FILE = "./tmp/datas.txt"
+STATUS_FILE = "./tmp/status.txt"
 
 API_URL = "https://apis.mytel.com.mm/network-test/v3/submit"
 
