@@ -165,5 +165,5 @@ def start_send():
 
 if __name__ == '__main__':
     print("Server started.")
-    app.run(debug=True)
+    app.run()
     
